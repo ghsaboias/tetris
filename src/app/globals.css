@@ -31,3 +31,71 @@ body {
     text-wrap: balance;
   }
 }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  text-align: center;
+}
+
+.game-section {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  /* height: 66vh; */
+}
+
+.game-container {
+  margin: 2%;
+  border: 1px solid blue;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(15, 30px);
+  background-color: #fff;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.type1 {
+  background-color: #f00;
+}
+
+.type2 {
+  background-color: #0f0;
+}
+
+.type3 {
+  background-color: #00f;
+}
+
+.type4 {
+  background-color: #ff0;
+}
+
+.type5 {
+  background-color: #f0f;
+}
+
+.type6 {
+  background-color: #0ff;
+}
+
+.type7 {
+  background-color: #800080;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
